@@ -1,23 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="896ea3c9-48f4-466f-8008-81ad0e6e080e" name="Default Changelist" comment="" />
+    <list default="true" id="896ea3c9-48f4-466f-8008-81ad0e6e080e" name="Default Changelist" comment="Init app">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4114e0cd-b8d5-45e0-8baf-947e73dbe3be.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4114e0cd-b8d5-45e0-8baf-947e73dbe3be.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4114e0cd-b8d5-45e0-8baf-947e73dbe3be/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4114e0cd-b8d5-45e0-8baf-947e73dbe3be/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/app.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/message.go" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/message.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/run.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/sender.go" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/sender.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/utils/message.converter.go" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/utils/message.converter.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1kdvHrv4O4FobZrtBvsogj4N7a6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -74,9 +101,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Go Build.go build go_telegram_notificator" />
-        <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -89,10 +116,22 @@
       <option name="presentableId" value="Default" />
       <updated>1606043198076</updated>
     </task>
+    <task id="LOCAL-00001" summary="Init app">
+      <created>1606057425603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606057425603</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init app" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -102,52 +141,45 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="640" y="362" key="#Go_Modules/0.0.1680.1050@0.0.1680.1050" timestamp="1606043240112" />
-    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606051066641">
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606069181191">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606051066641" />
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606069181191" />
     <state x="536" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606044066920">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="536" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606044066920" />
-    <state width="1638" height="460" key="GridCell.Tab.0.bottom" timestamp="1606052835896">
+    <state width="1126" height="435" key="GridCell.Tab.0.bottom" timestamp="1606076851329">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="460" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606052835896" />
-    <state width="1638" height="460" key="GridCell.Tab.0.center" timestamp="1606052835894">
+    <state width="1126" height="435" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606076851329" />
+    <state width="1126" height="435" key="GridCell.Tab.0.center" timestamp="1606076851327">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="460" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606052835894" />
-    <state width="1638" height="460" key="GridCell.Tab.0.left" timestamp="1606052835893">
+    <state width="1126" height="435" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606076851327" />
+    <state width="1126" height="435" key="GridCell.Tab.0.left" timestamp="1606076851326">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="460" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606052835893" />
-    <state width="1638" height="460" key="GridCell.Tab.0.right" timestamp="1606052835895">
+    <state width="1126" height="435" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606076851326" />
+    <state width="1126" height="435" key="GridCell.Tab.0.right" timestamp="1606076851328">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="460" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606052835895" />
+    <state width="1126" height="435" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606076851328" />
     <state width="229" height="457" key="HiddenNamespacesPopup" timestamp="1606051087747">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="229" height="457" key="HiddenNamespacesPopup/0.0.1680.1050@0.0.1680.1050" timestamp="1606051087747" />
-    <state x="742" y="416" width="342" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1606055979258">
+    <state x="742" y="416" width="342" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1606076995388">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="742" y="416" width="342" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1680.1050@0.0.1680.1050" timestamp="1606055979258" />
-    <state x="541" y="280" width="597" height="490" key="find.popup" timestamp="1606055724773">
+    <state x="742" y="416" width="342" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1680.1050@0.0.1680.1050" timestamp="1606076995388" />
+    <state x="541" y="280" width="597" height="490" key="find.popup" timestamp="1606066777869">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="541" y="280" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606055724773" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/telegram/run.go</url>
-          <line>44</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="541" y="280" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606066777869" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1606073818972">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606073818972" />
   </component>
 </project>
