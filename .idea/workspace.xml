@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="896ea3c9-48f4-466f-8008-81ad0e6e080e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1kdvHrv4O4FobZrtBvsogj4N7a6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/db" />
+      <recent name="$PROJECT_DIR$/wiki" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build go_telegram_notificator">
+    <configuration name="go build go_telegram_notificator" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="go_telegram_notificator" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="removeVolumesOnComposeDown" value="true" />
+          <option name="commandLineOptions" value="--build" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Go Build.go build go_telegram_notificator" />
+      <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Go Build.go build go_telegram_notificator" />
+        <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="896ea3c9-48f4-466f-8008-81ad0e6e080e" name="Default Changelist" comment="" />
+      <created>1606043198076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606043198076</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="362" key="#Go_Modules" timestamp="1606043240112">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="640" y="362" key="#Go_Modules/0.0.1680.1050@0.0.1680.1050" timestamp="1606043240112" />
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606051066641">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606051066641" />
+    <state x="536" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606044066920">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="536" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606044066920" />
+    <state width="1638" height="460" key="GridCell.Tab.0.bottom" timestamp="1606052835896">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="460" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606052835896" />
+    <state width="1638" height="460" key="GridCell.Tab.0.center" timestamp="1606052835894">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="460" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606052835894" />
+    <state width="1638" height="460" key="GridCell.Tab.0.left" timestamp="1606052835893">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="460" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606052835893" />
+    <state width="1638" height="460" key="GridCell.Tab.0.right" timestamp="1606052835895">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="460" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606052835895" />
+    <state width="229" height="457" key="HiddenNamespacesPopup" timestamp="1606051087747">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="229" height="457" key="HiddenNamespacesPopup/0.0.1680.1050@0.0.1680.1050" timestamp="1606051087747" />
+    <state x="742" y="416" width="342" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1606055979258">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="742" y="416" width="342" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1680.1050@0.0.1680.1050" timestamp="1606055979258" />
+    <state x="541" y="280" width="597" height="490" key="find.popup" timestamp="1606055724773">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="541" y="280" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606055724773" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/telegram/run.go</url>
+          <line>44</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
