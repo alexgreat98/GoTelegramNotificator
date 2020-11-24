@@ -33,11 +33,9 @@ func Boot() (*gorm.DB, error) {
 	//Создаем таблицу
 	if os.Getenv("CREATE_TABLE") == "yes" {
 
-		if os.Getenv("DB_SWITCH") == "on" {
-			if err := db.AutoMigrate(&User{}); err != nil {
-				fmt.Println("GORM ERROR")
-				fmt.Println(err)
-			}
+		if err := db.AutoMigrate(&User{}); err != nil {
+			fmt.Println("GORM ERROR")
+			fmt.Println(err)
 		}
 	}
 

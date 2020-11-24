@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="896ea3c9-48f4-466f-8008-81ad0e6e080e" name="Default Changelist" comment="Init app">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/models.go" afterDir="false" />
+    <list default="true" id="896ea3c9-48f4-466f-8008-81ad0e6e080e" name="Default Changelist" comment="Write bot logic">
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/4114e0cd-b8d5-45e0-8baf-947e73dbe3be.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4114e0cd-b8d5-45e0-8baf-947e73dbe3be.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/4114e0cd-b8d5-45e0-8baf-947e73dbe3be/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4114e0cd-b8d5-45e0-8baf-947e73dbe3be/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/app.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/models.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/telegram/message.go" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/message.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/telegram/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/run.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/telegram/sender.go" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/sender.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/telegram/utils/message.converter.go" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/utils/message.converter.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,8 +100,8 @@
     </configuration>
     <list>
       <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-      <item itemvalue="Go Build.go build go_telegram_notificator" />
       <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
+      <item itemvalue="Go Build.go build go_telegram_notificator" />
     </list>
     <recent_temporary>
       <list>
@@ -123,15 +127,34 @@
       <option name="project" value="LOCAL" />
       <updated>1606057425603</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Write bot logic">
+      <created>1606080533332</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606080533332</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init app" />
+    <MESSAGE value="Write bot logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Write bot logic" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -169,14 +192,22 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="229" height="457" key="HiddenNamespacesPopup/0.0.1680.1050@0.0.1680.1050" timestamp="1606051087747" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1606239671981">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1606239671981" />
     <state x="742" y="416" width="342" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1606076995388">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="742" y="416" width="342" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1680.1050@0.0.1680.1050" timestamp="1606076995388" />
-    <state x="541" y="280" width="597" height="490" key="find.popup" timestamp="1606066777869">
+    <state x="463" y="139" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606240287293">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="541" y="280" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606066777869" />
+    <state x="463" y="139" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606240287293" />
+    <state x="541" y="280" width="597" height="490" key="find.popup" timestamp="1606239657121">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="541" y="280" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606239657121" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1606073818972">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

@@ -7,6 +7,7 @@ type User struct {
 	FirstName string
 	LastName  string
 	ChatId    int
+	UserName  string
 }
 
 func GetAllUsers() []User {
@@ -17,10 +18,10 @@ func GetAllUsers() []User {
 }
 
 //Собираем данные полученные ботом
-func CreateUser(firstName string, lastName string, chatId int) bool {
+func CreateUser(firstName string, lastName string, chatId int, userName string) bool {
 	var user User
 	if err := Db.Where("chat_id = ?", chatId).First(&user).Error; err != nil {
-		user := User{FirstName: firstName, LastName: lastName, ChatId: chatId}
+		user := User{FirstName: firstName, LastName: lastName, ChatId: chatId, UserName: userName}
 		fmt.Println(user)
 		result := Db.Create(&user)
 		fmt.Println(result.Error)

@@ -17,6 +17,8 @@ func Sender(bot *tgbotapi.BotAPI) {
 		case message := <-Messages:
 			fmt.Println("text: ", message.Text())
 			msg := tgbotapi.NewMessage(message.ChatId(), message.Text())
+			msg.ParseMode = tgbotapi.ModeMarkdown
+
 			if _, err := bot.Send(msg); err != nil {
 				fmt.Println(err)
 			}
